@@ -1,5 +1,18 @@
-{ "name": "ms-surveyor-frontend", "version": "1.0.0" }
-"devDependencies": {
-  "@remix-run/dev": "^1.17.0",
-  // other dev dependencies...
+{
+  "name": "ms-surveyor-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@remix-run/react": "^1.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.17.0"
+  }
 }
